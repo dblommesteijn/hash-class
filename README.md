@@ -12,18 +12,18 @@ hash.assign_if(:some_element) {|e| a = e}
 **Logic**
 
 Block `{|e| a = e}` is yielded when key `:some_element` in `hash` is found. `e` contains the value of key `:some_element`.
-**NOTE: When the key is not found, the block is not yielded!**
+*NOTE: When the key is not found, the block is not yielded!*
 
 
 ## Usage
 
-*Add gem to your Gemfile*
+**Add gem to your Gemfile**
 
 ```bash
 gem 'hash-class', github: 'dblommesteijn/hash-class'
 ```
 
-*Use as standalone gem*
+**Use as standalone gem**
 
 ```bash
 gem install specific_install
