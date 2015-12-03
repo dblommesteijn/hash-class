@@ -30,6 +30,15 @@ gem install specific_install
 gem specific_install https://github.com/dblommesteijn/hash-class
 ```
 
+### Code snippet
+
+```bash
+require 'hash-class'
+a = 123
+hash = {}
+hash.assign_if(:some_element) {|e| a = e}
+```
+
 ## Run Tests
 
 ```bash
